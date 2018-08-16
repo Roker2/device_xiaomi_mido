@@ -16,8 +16,11 @@
 
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/nr/config/common_full_phone.mk)
+# Inherit some common Atomic-OS stuff.
+$(call inherit-product, vendor/aos/config/common.mk)
+
+# MusicFX
+WITH_MUSICFX=true
 
 PRODUCT_NAME := aos_mido
 BOARD_VENDOR := Xiaomi
