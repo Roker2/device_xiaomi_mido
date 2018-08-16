@@ -1,1 +1,1 @@
-add_lunch_combo nr_mido-userdebug
+add_lunch_combo aos_mido-userdebug
